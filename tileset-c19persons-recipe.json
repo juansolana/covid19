@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "layers": {
+    "c19persons": {
+      "source": "mapbox://tileset-source/juansolana/c19persons",
+      "minzoom": 0,
+      "maxzoom": 18
+    }
+  }
+}

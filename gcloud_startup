@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# python manage.py migrate
+
+# python manage.py collectstatic
+
+# Start the server
+/usr/local/bin/gunicorn covidmap.wsgi:application -w 2 -b :$PORT

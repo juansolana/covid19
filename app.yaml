@@ -1,0 +1,20 @@
+# [START runtime]
+runtime: custom
+env: flex
+entrypoint: gunicorn -b :$PORT covidmap.wsgi
+
+beta_settings:
+    cloud_sql_instances: 'ethereal-yen-274604:us-central1:c19persons'
+
+handlers:
+  - url: /static
+    static_dir: c19map/static
+  - url: .*
+    script: covidmap.wsgi.application
+
+builtins:
+  - django_wsgi: on
+
+runtime_config:
+  python_version: 3
+# [END runtime]

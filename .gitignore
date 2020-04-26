@@ -1,0 +1,7 @@
+c19map/static/
+__pycache__/
+secrets/
+GAE_Dockerfile
+cloud_sql_proxy*
+PostGIS_to_GeoJSON.txt
+c19-Backup
