@@ -8,5 +8,5 @@ La idea es mapear con la ayuda de la gente el avance del Covid19 en México, sim
 Todo el desarrollo está poco avanzado, quien quiera ayudar es bienvenido, actualizaré este README pronto para que haya mas información.
 
 Se puede acceder al mapa en https://c19tracker-ok2gaxescq-uc.a.run.app/map/ iniciando sesión con la cuenta dummy mientras arreglo verificación por correo: 
-Usuario: gcloud
-Password: covid1919
+Usuario: covid
+Password: c19mexico
